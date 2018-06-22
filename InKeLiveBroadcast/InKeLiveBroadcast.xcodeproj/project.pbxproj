@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FB61131AC592F38B4C08D43 /* libPods-InKeLiveBroadcastUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE1E7DD8D5424DE05E027171 /* libPods-InKeLiveBroadcastUITests.a */; };
 		5B2C8C6520DC9C9C00FB34BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C8C6420DC9C9C00FB34BB /* AppDelegate.m */; };
 		5B2C8C6820DC9C9C00FB34BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C8C6720DC9C9C00FB34BB /* ViewController.m */; };
 		5B2C8C6B20DC9C9C00FB34BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2C8C6920DC9C9C00FB34BB /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		5B2C8C7320DC9C9C00FB34BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C8C7220DC9C9C00FB34BB /* main.m */; };
 		5B2C8C7D20DC9C9D00FB34BB /* InKeLiveBroadcastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C8C7C20DC9C9D00FB34BB /* InKeLiveBroadcastTests.m */; };
 		5B2C8C8820DC9C9D00FB34BB /* InKeLiveBroadcastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2C8C8720DC9C9D00FB34BB /* InKeLiveBroadcastUITests.m */; };
+		62D9C4413BAFD8A7B57E91AA /* libPods-InKeLiveBroadcast.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B94D76FF4C1F92CBFC346DD5 /* libPods-InKeLiveBroadcast.a */; };
+		E9E852734099474EA3FE2046 /* libPods-InKeLiveBroadcastTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D9C69C7BABBF718603FD8EB /* libPods-InKeLiveBroadcastTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D9C69C7BABBF718603FD8EB /* libPods-InKeLiveBroadcastTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InKeLiveBroadcastTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		208140B87F204494ABE96E45 /* Pods-InKeLiveBroadcastUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InKeLiveBroadcastUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InKeLiveBroadcastUITests/Pods-InKeLiveBroadcastUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2776F126458784586CE609B1 /* Pods-InKeLiveBroadcast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InKeLiveBroadcast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InKeLiveBroadcast/Pods-InKeLiveBroadcast.debug.xcconfig"; sourceTree = "<group>"; };
 		5B2C8C6020DC9C9C00FB34BB /* InKeLiveBroadcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InKeLiveBroadcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2C8C6320DC9C9C00FB34BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5B2C8C6420DC9C9C00FB34BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		5B2C8C8320DC9C9D00FB34BB /* InKeLiveBroadcastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InKeLiveBroadcastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2C8C8720DC9C9D00FB34BB /* InKeLiveBroadcastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InKeLiveBroadcastUITests.m; sourceTree = "<group>"; };
 		5B2C8C8920DC9C9D00FB34BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CF9C99EF9E69AE46D31DC2C /* Pods-InKeLiveBroadcast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InKeLiveBroadcast.release.xcconfig"; path = "Pods/Target Support Files/Pods-InKeLiveBroadcast/Pods-InKeLiveBroadcast.release.xcconfig"; sourceTree = "<group>"; };
+		713FDDCAFA9DB594BCAE6A5A /* Pods-InKeLiveBroadcastUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InKeLiveBroadcastUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InKeLiveBroadcastUITests/Pods-InKeLiveBroadcastUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		72044FCB03403D1794BB01F4 /* Pods-InKeLiveBroadcastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InKeLiveBroadcastTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InKeLiveBroadcastTests/Pods-InKeLiveBroadcastTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B94D76FF4C1F92CBFC346DD5 /* libPods-InKeLiveBroadcast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InKeLiveBroadcast.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A87729D5571B03AF82A073 /* Pods-InKeLiveBroadcastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InKeLiveBroadcastTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-InKeLiveBroadcastTests/Pods-InKeLiveBroadcastTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE1E7DD8D5424DE05E027171 /* libPods-InKeLiveBroadcastUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InKeLiveBroadcastUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62D9C4413BAFD8A7B57E91AA /* libPods-InKeLiveBroadcast.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9E852734099474EA3FE2046 /* libPods-InKeLiveBroadcastTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB61131AC592F38B4C08D43 /* libPods-InKeLiveBroadcastUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D10A02DC34B0E67088CD729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2776F126458784586CE609B1 /* Pods-InKeLiveBroadcast.debug.xcconfig */,
+				6CF9C99EF9E69AE46D31DC2C /* Pods-InKeLiveBroadcast.release.xcconfig */,
+				72044FCB03403D1794BB01F4 /* Pods-InKeLiveBroadcastTests.debug.xcconfig */,
+				E3A87729D5571B03AF82A073 /* Pods-InKeLiveBroadcastTests.release.xcconfig */,
+				713FDDCAFA9DB594BCAE6A5A /* Pods-InKeLiveBroadcastUITests.debug.xcconfig */,
+				208140B87F204494ABE96E45 /* Pods-InKeLiveBroadcastUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B2C8C5720DC9C9B00FB34BB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				5B2C8C7B20DC9C9D00FB34BB /* InKeLiveBroadcastTests */,
 				5B2C8C8620DC9C9D00FB34BB /* InKeLiveBroadcastUITests */,
 				5B2C8C6120DC9C9C00FB34BB /* Products */,
+				1D10A02DC34B0E67088CD729 /* Pods */,
+				7C79909397CAEEE6968FAB07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +162,16 @@
 			path = InKeLiveBroadcastUITests;
 			sourceTree = "<group>";
 		};
+		7C79909397CAEEE6968FAB07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B94D76FF4C1F92CBFC346DD5 /* libPods-InKeLiveBroadcast.a */,
+				0D9C69C7BABBF718603FD8EB /* libPods-InKeLiveBroadcastTests.a */,
+				FE1E7DD8D5424DE05E027171 /* libPods-InKeLiveBroadcastUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B2C8C8C20DC9C9D00FB34BB /* Build configuration list for PBXNativeTarget "InKeLiveBroadcast" */;
 			buildPhases = (
+				BA1C2A31E2697DC623A91D51 /* [CP] Check Pods Manifest.lock */,
 				5B2C8C5C20DC9C9C00FB34BB /* Sources */,
 				5B2C8C5D20DC9C9C00FB34BB /* Frameworks */,
 				5B2C8C5E20DC9C9C00FB34BB /* Resources */,
+				5CECBD4155A04FEDB10C8A21 /* [CP] Embed Pods Frameworks */,
+				79192E5B7709FD7B351C9EBD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B2C8C8F20DC9C9D00FB34BB /* Build configuration list for PBXNativeTarget "InKeLiveBroadcastTests" */;
 			buildPhases = (
+				E3C6C86656EE5FA36E31CDE2 /* [CP] Check Pods Manifest.lock */,
 				5B2C8C7420DC9C9D00FB34BB /* Sources */,
 				5B2C8C7520DC9C9D00FB34BB /* Frameworks */,
 				5B2C8C7620DC9C9D00FB34BB /* Resources */,
+				D64F83A184DE09A289556BED /* [CP] Embed Pods Frameworks */,
+				44F6CBF6CAF34085EC808E7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B2C8C9220DC9C9D00FB34BB /* Build configuration list for PBXNativeTarget "InKeLiveBroadcastUITests" */;
 			buildPhases = (
+				ACAA0C27541416F9443D1486 /* [CP] Check Pods Manifest.lock */,
 				5B2C8C7F20DC9C9D00FB34BB /* Sources */,
 				5B2C8C8020DC9C9D00FB34BB /* Frameworks */,
 				5B2C8C8120DC9C9D00FB34BB /* Resources */,
+				5FDBA923A060157A4B382B75 /* [CP] Embed Pods Frameworks */,
+				EDA27C0AAE0B696947A3ABCE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44F6CBF6CAF34085EC808E7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InKeLiveBroadcastTests/Pods-InKeLiveBroadcastTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CECBD4155A04FEDB10C8A21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InKeLiveBroadcast/Pods-InKeLiveBroadcast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FDBA923A060157A4B382B75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InKeLiveBroadcastUITests/Pods-InKeLiveBroadcastUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79192E5B7709FD7B351C9EBD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InKeLiveBroadcast/Pods-InKeLiveBroadcast-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACAA0C27541416F9443D1486 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InKeLiveBroadcastUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA1C2A31E2697DC623A91D51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InKeLiveBroadcast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D64F83A184DE09A289556BED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InKeLiveBroadcastTests/Pods-InKeLiveBroadcastTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3C6C86656EE5FA36E31CDE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InKeLiveBroadcastTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA27C0AAE0B696947A3ABCE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InKeLiveBroadcastUITests/Pods-InKeLiveBroadcastUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B2C8C5C20DC9C9C00FB34BB /* Sources */ = {
@@ -431,16 +627,14 @@
 		};
 		5B2C8C8D20DC9C9D00FB34BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2776F126458784586CE609B1 /* Pods-InKeLiveBroadcast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PRGK53KG78;
 				INFOPLIST_FILE = InKeLiveBroadcast/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Private.InKeLiveBroadcast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,16 +643,14 @@
 		};
 		5B2C8C8E20DC9C9D00FB34BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF9C99EF9E69AE46D31DC2C /* Pods-InKeLiveBroadcast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PRGK53KG78;
 				INFOPLIST_FILE = InKeLiveBroadcast/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Private.InKeLiveBroadcast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,16 +659,13 @@
 		};
 		5B2C8C9020DC9C9D00FB34BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72044FCB03403D1794BB01F4 /* Pods-InKeLiveBroadcastTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PRGK53KG78;
 				INFOPLIST_FILE = InKeLiveBroadcastTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Private.InKeLiveBroadcastTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -486,16 +675,13 @@
 		};
 		5B2C8C9120DC9C9D00FB34BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3A87729D5571B03AF82A073 /* Pods-InKeLiveBroadcastTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PRGK53KG78;
 				INFOPLIST_FILE = InKeLiveBroadcastTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Private.InKeLiveBroadcastTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -505,15 +691,12 @@
 		};
 		5B2C8C9320DC9C9D00FB34BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 713FDDCAFA9DB594BCAE6A5A /* Pods-InKeLiveBroadcastUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PRGK53KG78;
 				INFOPLIST_FILE = InKeLiveBroadcastUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Private.InKeLiveBroadcastUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -523,15 +706,12 @@
 		};
 		5B2C8C9420DC9C9D00FB34BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 208140B87F204494ABE96E45 /* Pods-InKeLiveBroadcastUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PRGK53KG78;
 				INFOPLIST_FILE = InKeLiveBroadcastUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Private.InKeLiveBroadcastUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
